@@ -12,32 +12,30 @@
     "watch": {
       "name": "watch",
       "command": "npm run watch",
-      "runAtStart": false
+      "runAtStart": true,
+      "preview": {
+        "port": 3000
+      }
     },
     "start": {
       "name": "start",
       "command": "npm run start",
-      "runAtStart": true
     },
     "build": {
       "name": "build",
-      "command": "npm run build",
-      "runAtStart": false
+      "command": "npm run build"
     },
     "test": {
       "name": "test",
-      "command": "npm run test",
-      "runAtStart": false
+      "command": "npm run test"
     },
     "eject": {
       "name": "eject",
-      "command": "npm run eject",
-      "runAtStart": false
+      "command": "npm run eject"
     },
     "proxy": {
       "name": "proxy",
-      "command": "npm run proxy",
-      "runAtStart": false
+      "command": "npm run proxy"
     }
   }
 }
