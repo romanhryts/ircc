@@ -1,0 +1,19 @@
+.table {
+  border-collapse: collapse;
+  border: 1px solid #ced4da;
+  margin: 0 auto;
+}
+
+.head .cell, .row .cell {
+  border-bottom: 1px solid #ced4da;
+}
+
+.cell {
+  padding: 15px 80px;
+  text-align: left;
+}
+
+.cell.editable {
+  cursor: pointer;
+}
+

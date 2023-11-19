@@ -1,0 +1,33 @@
+.header {
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  height: 80px;
+}
+
+.title {
+  font-size: 28px;
+}
+
+.main {
+  height: calc(100vh - 180px);
+}
+
+.footer {
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  height: 100px;
+}
+
+.copyrights {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
