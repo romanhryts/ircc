@@ -12,7 +12,7 @@
 }
 
 .main {
-  height: calc(100vh - 180px);
+  height: min-content;
 }
 
 .footer {
