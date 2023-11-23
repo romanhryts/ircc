@@ -13,6 +13,7 @@
 
 .main {
   height: min-content;
+  min-height: calc(100vh - 80px - 100px);
 }
 
 .footer {

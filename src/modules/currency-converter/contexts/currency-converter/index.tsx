@@ -91,9 +91,11 @@ export const CurrencyConverterProvider: FC<PropsWithChildren> = ({
         if (requests >= REQ_LIMIT_VALUE) {
           return reject({ message: 'Requests limit exceeded.' });
         }
-        return fetch(key)
-          .then(response => response.json())
-          .then(resolve);
+        return resolve(
+          import('./../../../../mock.json').then(
+            module => module.default as CurrencyRates[],
+          ),
+        );
       }),
     {
       revalidateIfStale: true,

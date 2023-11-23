@@ -1,0 +1,50 @@
+[
+  {
+    "ccy": "CHF",
+    "base_ccy": "UAH",
+    "buy": "40.80730",
+    "sale": "40.80730"
+  },
+  {
+    "ccy": "CZK",
+    "base_ccy": "UAH",
+    "buy": "1.60690",
+    "sale": "1.60690"
+  },
+  {
+    "ccy": "GBP",
+    "base_ccy": "UAH",
+    "buy": "45.21240",
+    "sale": "45.21240"
+  },
+  {
+    "ccy": "ILS",
+    "base_ccy": "UAH",
+    "buy": "9.67660",
+    "sale": "9.67660"
+  },
+  {
+    "ccy": "JPY",
+    "base_ccy": "UAH",
+    "buy": "0.24248",
+    "sale": "0.24248"
+  },
+  {
+    "ccy": "NOK",
+    "base_ccy": "UAH",
+    "buy": "3.36290",
+    "sale": "3.36290"
+  },
+  {
+    "ccy": "PLZ",
+    "base_ccy": "UAH",
+    "buy": "9.01420",
+    "sale": "9.01420"
+  },
+  {
+    "ccy": "SEK",
+    "base_ccy": "UAH",
+    "buy": "3.45450",
+    "sale": "3.45450"
+  }
+]
